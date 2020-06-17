@@ -42,13 +42,36 @@ After installing the express-validator then go to your package.json and update i
 - concurrently: allows to run more than one npm script
     npm i concurrently
 
+- install react DOM
+    npm i react-router-dom
+    
+- Using bootstrap 4 for css: no instilation required just need to link it inside public -> index.html
+    https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+- Install moemnt:
+    npm i moment 
+
+- Install Query string - to get search request results in string format
+    npm i query-string
+
+- Install React Strap 
+    npm i reactstrap
+
+- Install uuid
+    npm i uuid
+
+- install react transition group
+    npm i react-transition-group
+
 Notes 
 
-Please note that the client folder is our view folder.
+Please note that the client folder is our view folder make sure to install node_codule for both.
 
-client side is using proxy instead of .env file to run.
+Client side is using proxy instead of .env file to run.
 
 Tips 
 
 If you have folder already created just run create-react-app . to install react packages inside that folder.
+
+To run the dev enviroment: npm run dev
 
