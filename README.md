@@ -2,6 +2,16 @@
 
 Creating Simple todo list app using MERN stack
 
+STACK info:
+
+REACt.js (https://github.com/facebook/create-react-app)
+
+Express.js (npm i express)
+
+Node.js (https://nodejs.org/en/download/)
+
+Mongo Atlas it is cloud based database you can choose your prefered provider such as amazon AWS or Michrosoft Azure and Google Cloud (https://www.mongodb.com/cloud/atlas)
+
 Packaged used 
 
 - pakage.json file:
