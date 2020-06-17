@@ -1,16 +1,16 @@
-# todo_backend_node
+# To do App
 
-Creating Simple todo list app using MERN stack
+Creating Simple todo list app using MERN stack.
 
 STACK info:
 
-REACt.js (https://github.com/facebook/create-react-app)
+REACt.js (https://github.com/facebook/create-react-app) & Redux
 
 Express.js (npm i express)
 
 Node.js (https://nodejs.org/en/download/)
 
-Mongo Atlas it is cloud based database you can choose your prefered provider such as amazon AWS or Michrosoft Azure and Google Cloud (https://www.mongodb.com/cloud/atlas)
+Mongo Atlas it is free cloud based database you can choose your prefered provider such as amazon AWS or Michrosoft Azure and Google Cloud (https://www.mongodb.com/cloud/atlas)
 
 Packaged used 
 
@@ -41,4 +41,14 @@ After installing the express-validator then go to your package.json and update i
 
 - concurrently: allows to run more than one npm script
     npm i concurrently
+
+Notes 
+
+Please note that the client folder is our view folder.
+
+client side is using proxy instead of .env file to run.
+
+Tips 
+
+If you have folder already created just run create-react-app . to install react packages inside that folder.
 
