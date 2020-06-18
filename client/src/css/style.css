@@ -4,3 +4,24 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+.remove-btn {
+    margin-right: 0.5rem;
+  }
+  
+  .fadeOne-enter {
+    opacity: 0.01;
+  }
+  
+  .fadeOne-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+  }
+  
+  .fadeOne-exit {
+    opacity: 1;
+  }
+  
+  .fadeOne-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+  }
