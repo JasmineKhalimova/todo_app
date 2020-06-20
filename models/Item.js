@@ -5,7 +5,9 @@ const Schema = mongoose.Schema;// to create db schema
 const ItemSchema = new Schema({
     name: {
         type: String,
-        required: true
+        required: true,
+        trim: true,
+        maxlength: 80
     },
     date: {
         type: Date,

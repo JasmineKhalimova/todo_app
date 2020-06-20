@@ -1,15 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./css/style.css";
-import AppNavbar from "./components/AppNavbar";
-import ToDoList from "./components/ToDoList";
+import AppNavbar from './components/AppNavbar';
+import ToDoList from './components/ToDoList';
+import ItemModal from './components/ItemModal';
+import { Container } from 'reactstrap';
+import { Provider } from 'react-redux';
+import store from './flux/store';
+import { loadUser } from './flux/actions/authActions';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    store.dispatch(loadUser());
+  }, []);
+
   return (
-    <div className="App">
-      <AppNavbar />
-      <ToDoList />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <AppNavbar />
+        <Container>
+          <ItemModal />
+          <ToDoList />
+        </Container>
+      </div>
+    </Provider>
   );
-}
+};
 
 export default App;
