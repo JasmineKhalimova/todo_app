@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://jasmine:Summer2015!@nodeapi-blvm7.mongodb.net/nodeapi?retryWrites=truenodeAPI?retryWrites=true",
+    "jwtSecret": "fjhfksndkfmkldsmfls"
+  }
